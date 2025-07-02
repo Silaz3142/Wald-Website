@@ -1,0 +1,99 @@
+/* Seitenhintergrund */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: url("img/wald.jpg") no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+}
+
+
+h1 {
+  font-size: clamp(3rem, 8vw, 7em) !important;
+  color: white !important;
+  font-weight: 700 !important;
+  font-family: serif;
+  text-align: center;
+  padding-top: 15%;
+}
+
+h2 {
+  font-size: clamp(2rem, 5vw, 6em) !important;
+  color: white !important;
+  font-weight: 700 !important;
+  text-align: center;
+}
+
+
+
+/* Navbar transparent und ohne Hintergrund */
+.navbar {
+  background-color: transparent !important;
+  box-shadow: none;
+  border: none;
+}
+
+.navbar-brand img {
+  height: 50px;
+}
+
+
+.navbar .nav-link {
+  font-size: 2rem;
+  color: white !important;
+}
+
+/* Hier wird die ganze Liste nach links geschoben */
+.navbar-nav {
+  margin-left: auto;
+  margin-right: 7%;
+  gap: 2%;
+  margin-top: 1%;
+}
+
+.navbar .nav-link:hover {
+  color: #a8e6cf !important;
+}
+
+/* Burger-Icon */
+.navbar-toggler {
+  border-color: white;
+}
+
+.tier-box {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+}
+
+.tierbild {
+  border-radius: 10px;
+  border: 3px solid white;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: auto;
+}
+
+.text-box p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: white;
+}
+
+
+/* Footer */
+footer {
+  background-color: rgba(0, 0, 0, 0.6);
+  font-size: 14px;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+}
